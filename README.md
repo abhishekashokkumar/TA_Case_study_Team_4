@@ -137,3 +137,4 @@ The FAQ for code templates during setting up, testing, development and adoption 
 # Notebook.
 * Notebook are in [Notebook Path](./notebooks/case_study)
 * Data is in [Data Path](./data/raw/opportunity)
+* Reports are in [Report Path](./reports)
