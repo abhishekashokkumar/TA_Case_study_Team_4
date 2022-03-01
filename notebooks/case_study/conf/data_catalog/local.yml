@@ -1,0 +1,68 @@
+datasets:
+  raw:
+    product:
+      type: ds
+      format: csv
+      uri: ${core.data_base_path}/raw/opportunity/csv/product.csv
+      driver_params: {}
+
+    opportunity:
+      type: ds
+      format: csv
+      uri: ${core.data_base_path}/raw/opportunity/csv/opportunity.csv
+      driver_params: {}
+  
+  cleaned:
+    product:
+      type: ds
+      format: parquet
+      uri: ${core.data_base_path}/cleaned/opportunity/product.parquet
+      driver_params: {}
+
+    opportunity:
+      type: ds
+      format: parquet
+      uri: ${core.data_base_path}/cleaned/opportunity/opportunity.parquet
+      driver_params: {}
+      
+  processed:
+    merged:
+      type: ds
+      format: parquet
+      uri: ${core.data_base_path}/processed/merged.parquet
+      driver_params: {}
+      
+  train:
+    merged:
+      features:
+        type: ds
+        format: parquet
+        uri: ${core.data_base_path}/train/merged/features.parquet
+        driver_params: {}
+
+      target:
+        type: ds
+        format: parquet
+        uri: ${core.data_base_path}/train/merged/target.parquet
+        driver_params: {}
+  test:
+    merged:
+      features:
+        type: ds
+        format: parquet
+        uri: ${core.data_base_path}/test/merged/features.parquet
+        driver_params: {}
+
+      target:
+        type: ds
+        format: parquet
+        uri: ${core.data_base_path}/test/merged/target.parquet
+        driver_params: {}
+        
+  score:
+    merged:
+      output:
+        type: ds
+        format: parquet
+        uri: ${core.data_base_path}/test/merged/scored_output.parquet
+        driver_params: {}
