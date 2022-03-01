@@ -135,5 +135,5 @@ The FAQ for code templates during setting up, testing, development and adoption 
 [here](https://docs.google.com/document/d/1vdRhHHdPOzYNnEHKaoZgztGNd0PnsP5XaEJlDNHxrQ0/edit?usp=sharing)
 
 # Notebook.
-Notebook are in [Notebook Path](./notebooks/case_study)
-Data is in [Data Path](./Data/raw/opportunity)
+* Notebook are in [Notebook Path](./notebooks/case_study)
+* Data is in [Data Path](./data/raw/opportunity)
