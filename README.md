@@ -1,6 +1,6 @@
-# Churn prediction
+# Opportunity Quality prediction
 
-Use classification to predict the event of attrition/churn for a customer
+Use classification to predict the event of opportunity of a quality.
 
 Tip: If you don't have markdown viewer like atom, you can render this on chrome by following [this link](https://imagecomputing.net/damien.rohmer/teaching/general/markdown_viewer/index.html).
 
@@ -133,3 +133,6 @@ You now should have a standalone conda python environment and install the code i
 
 The FAQ for code templates during setting up, testing, development and adoption phases are available 
 [here](https://docs.google.com/document/d/1vdRhHHdPOzYNnEHKaoZgztGNd0PnsP5XaEJlDNHxrQ0/edit?usp=sharing)
+
+# Notebook.
+Notebook are in [Notebook Path](./notebooks/case_study)
